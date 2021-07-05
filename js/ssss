@@ -1,0 +1,141 @@
+	// TimeLine 
+
+	$.timeliner({
+		timelineContainer: '#timeline-js',
+		timelineSectionMarker: '.milestone',
+		oneOpen: true,
+		startState: 'flat',
+		expandAllText: '+ Show All',
+		collapseAllText: '- Hide All'
+	});
+
+	$.timeliner({
+		timelineContainer: '#extimeline-js',
+		timelineSectionMarker: '.milestone',
+		oneOpen: true,
+		startState: 'flat',
+		expandAllText: '+ Show All',
+		collapseAllText: '- Hide All'
+	});
+		
+		// Carosel
+		
+  	$('.flexslider').flexslider({
+	    animation: "slide",
+	    animationLoop: true,
+	    itemWidth: 205,
+	    slideshowSpeed: 1500,
+	    itemMargin: 10
+	  });
+
+
+	// WaterBubble
+
+	$('#html').waterbubble({
+	    radius: 100,
+	    lineWidth: 5,
+	    data: 0.95,
+	    waterColor: '#ea5927',
+	    textColor: '#ffffff',
+	    txt: 'HTML',
+	    font: 'bold 30px "PT Sans"',
+	    wave: true,
+	    animation: true
+	});
+
+	$('#css').waterbubble({
+	    radius: 100,
+	    lineWidth: 5,
+	    data: 0.85,
+	    waterColor: 'rgb(19, 139, 202)',
+	    textColor: '#ffffff',
+	    txt: 'CSS',
+	    font: 'bold 30px "PT Sans"',
+	    wave: true,
+	    animation: true
+	});
+
+	$('#oop').waterbubble({
+	    radius: 100,
+	    lineWidth: 5,
+	    data: 0.75,
+	    waterColor: 'rgb(81, 95, 156)',
+	    textColor: '#ffffff',
+	    txt: 'OOP',
+	    font: 'bold 30px "PT Sans"',
+	    wave: true,
+	    animation: true
+	});
+
+	$('#wordpress').waterbubble({
+	    radius: 100,
+	    lineWidth: 5,
+	    data: 0.70,
+	    waterColor: 'rgb(35, 40, 45)',
+	    textColor: '#ffffff',
+	    txt: 'WordPress',
+	    font: 'bold 30px "PT Sans"',
+	    wave: true,
+	    animation: true
+	});
+
+	$('#laravel').waterbubble({
+	    radius: 100,
+	    lineWidth: 5,
+	    data: 0.6,
+	    waterColor: '#f4645f',
+	    textColor: '#ffffff',
+	    txt: 'Laravel',
+	    font: 'bold 30px "PT Sans"',
+	    wave: true,
+	    animation: true
+	});
+
+
+    //pettyphoto
+
+     $("a[rel^='prettyPhoto']").prettyPhoto({
+     	
+     });
+
+     //Smooth Scroll
+
+       $('body').smoothScroll({
+       		delegateSelector: 'ul.nav a',
+       		speed:1500
+      	});
+
+    // MixitUp
+
+    $('.portfolio-items').mixItUp();
+
+    //Scroll Top
+             var scrollTimeout;
+            
+            $('a.top').click(function(){
+                $('html,body').animate({scrollTop:0},1500);
+                return false;
+            });
+
+            $(window).scroll(function(){
+                clearTimeout(scrollTimeout);
+                if($(window).scrollTop()>400){
+                    scrollTimeout = setTimeout(function(){$('a.top:hidden').fadeIn()},100);
+                }
+                else{
+                    scrollTimeout = setTimeout(function(){$('a.top:visible').fadeOut()},100);    
+            }
+            });
+
+
+    // GMAP3
+
+    $('#gmap').gmap3({
+        marker:{address:"Haltern am See, Weseler Str. 151", options:{icon: "../img/location1.png"}},
+        map:{
+            options:{
+              zoom: 14,
+        	  scrollwheel: false
+            }
+           }
+      });

@@ -1,0 +1,646 @@
+<!-- 
+    <?php
+// require_once('download.php');
+
+?> -->
+
+<!DOCTYPE html>
+<!-- 
+Author : Pradipta sarker
+www.axiomshuvo.com
+Thank You For visiting My Site  -->
+
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pradipta Sarker | Web Developer</title>
+                    <!--        Meta Section     -->
+        <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+        <meta name="description" content="Free Web tutorials on HTML and CSS">
+        <meta name="author" content="Pradipta Sarker">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place sample.ico  in the proper directory -->
+        <!-- <link rel="icon" type="image/ico" href="img/favion.ico"> -->
+
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="img/favicon//manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="img/favicon//ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+            <!-- flexsldier Css -->
+        <link rel="stylesheet" href="lib/flexslider/flexslider.css">
+            <!-- prettyPhoto Css -->
+        <link rel="stylesheet" href="lib/prettyPhoto/css/prettyPhoto.css">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/custom.css">
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+
+        <!-- Preloader -->
+		<div id="preloader">
+		    <div id="status"></div>
+		</div>
+
+		<div id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-xs-12">
+                        <div class="menubar">
+                            <nav id="nav">
+                             <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#axiomshuvomenu" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                  </button>
+                                    <div class="header-logo">
+                                        <div class="logo">
+                                            <h2>Pradipta Sarker <span>Web Developer</span></h2>
+                                        </div>
+                                        <!-- Logo -->
+                                    </div> 
+                                
+                                </div>
+
+                                <!-- content for toggling -->
+                                <div class="collapse in navbar-collapse " id="axiomshuvomenu">
+                                  <ul class="nav navbar-nav">
+                                    <li class="active"><a href="#home">home<span class="sr-only">(current)</span></a></li>
+                                    <li><a href="#resume">resume</a></li>
+                                    <li><a href="#service">service</a></li>
+                                    <li><a href="#works">works</a></li>                                    
+                                    <li><a href="#contact">contact</a></li>
+                                  </ul>
+                                </div>
+                            </nav> 
+                            
+                            <div class="social-link">
+                                <ul class="list-inline">
+                                    <li><a target="_blank" href="https://twitter.com/Axiom_shuvo" data-toggle="tooltip" data-placement="top" title="twitter"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a target="_blank" href="https://www.linkedin.com/in/pradiptasarkershuvo/" data-toggle="tooltip" data-placement="top" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a target="_blank" href="https://github.com/Axiom-shuvo" data-toggle="tooltip" data-placement="top" title="github"><i class="fa fa-github"></i></a></li>
+                                    <li><a target="_blank" href="https://www.facebook.com/sarkar.shuvo" data-toggle="tooltip" data-placement="top" title="facebook"><i class="fa fa-facebook"></i></a></li>
+                                </ul>
+                            </div><!--  End social-link -->
+
+                            <div class="copy">
+                                <p>Copyright &copy;<?php echo date('Y'); ?> <a href="#">Pradipta Sarker</a></p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-9 col-xs-12 mainbody">
+                        <!-- begin Intro Section -->
+                        <section id="home" class="section-intro section">                           
+                            <img src="img/per-intro.png" alt="Personal Image">
+                            <h2>Pradipta sarker</h2>
+                            <hr>
+                            <h3>I'm web developer and designer. loves to create new things and tackle challenging problems.
+                                Write craft clean, responsive, and user-friendly websites. </h3>
+                            <hr>                           
+                        </section>
+                        <!--  end intro-section -->
+
+                        <section id="resume" class="section resume">
+                            <div class="boi r-bg">
+                                <div class="content-container">
+                                    <div class="row">                                                                        
+                                        <h2 class="sec-title">resume</h2>
+                                        <div class="sec-desc">
+                                            I'm Pradipta Sarker. I'm very passionate about my work,
+                                            loves to create new things and tackle challenging problems 
+                                            with intelligent concepts. Write craft clean, responsive, 
+                                            and user-friendly websites. My current weapons of choice are
+                                            HTML5 , CSS3 , JavaScript , jQuery, and MySQL. Being both 
+                                            an engineer and designer, I help clients bring their ideas 
+                                            into reality. Contact me today and I will make sure to get 
+                                            in touch as soon as possible.
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <!--  ######################### Education Timeline ############################# -->
+                                        <div id="timeline-js" class="timeline-container">
+                                                <!-- timeline heading -->
+                                            <div class="timeline-heading">
+                                                <div class="head">
+                                                    <span class="fa fa-certificate"><i></i></span>
+                                                </div>
+                                                <div class="head-content">
+                                                    <h3>Education</h3>
+                                                </div>                                            
+                                            </div>                                            
+                                                <!-- End timeline heading -->
+
+                                            <button class="timeline-toggle">+ expand all</button>
+                                            <br class="clear">
+
+                                            <div class="timeline-items">
+                                                <div class="timeline-wrapper">
+                                                    <h2 class="milestone"><span>University</span></h2>
+                                                    <dl class="timeline-series">
+                                                        <dt id="cse" class="timeline-event"><a>B.Eng in C.S.E</a></dt>
+                                                        <dd class="timeline-event-content" id="cseEX">
+                                                            <h5 class="con-title">From 2011 to 2015</h5>
+                                                            <p>Two completely independent projects, one for the Institute for Educational Leadership and another for the Fund for Investigative Journalism, expressed interest in a timeline component for their website.</p>
+                                                            <br class="clear">
+                                                        </dd><!-- /.timeline-event-content -->
+                                                    </dl><!-- /.timeline-series -->
+                                                </div><!-- /.timeline-wrapper -->
+
+                                                <div class="timeline-wrapper">
+                                                    <h2 class="milestone"><span>College</span></h2>
+                                                    <dl class="timeline-series">
+                                                        <dt id="hsc" class="timeline-event"><a>H.S.C</a></dt>
+                                                        <dd class="timeline-event-content" id="hscEX">
+                                                            <h5 class="con-title">From 2008 to 2010</h5>
+                                                            <p>Two completely independent projects, one for the Institute for Educational Leadership and another for the Fund for Investigative Journalism, expressed interest in a timeline component for their website.</p>
+                                                            <br class="clear">
+                                                        </dd><!-- /.timeline-event-content -->
+                                                    </dl><!-- /.timeline-series -->
+                                                </div><!-- /.timeline-wrapper -->
+
+                                                <div class="timeline-wrapper">
+                                                    <h2 class="milestone"><span>School Life</span></h2>
+                                                    <dl class="timeline-series">
+                                                        <dt id="school" class="timeline-event"><a>High School</a></dt>
+                                                        <dd class="timeline-event-content" id="schoolEX">
+                                                            <h5 class="con-title">From 2002 to 2007</h5>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nihil iste fugiat molestiae tempora quia quis vitae nostrum, mollitia iure necessitatibus eaque quibusdam laudantium debitis corrupti maiores nulla rem officiis!</p>
+                                                            <br class="clear">
+                                                        </dd><!-- /.timeline-event-content -->
+
+                                                        <dt id="pri" class="timeline-event"><a>Primary School</a></dt>
+                                                        <dd class="timeline-event-content" id="priEX">
+                                                            <h5 class="con-title">From 1996 to 2001</h5>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nihil iste fugiat molestiae tempora quia quis vitae nostrum, mollitia iure necessitatibus eaque quibusdam laudantium debitis corrupti maiores nulla rem officiis!</p>
+                                                            <br class="clear">
+                                                        </dd><!-- /.timeline-event-content -->
+
+
+                                                    </dl><!-- /.timeline-series -->
+
+                                                </div><!-- /.timeline-wrapper -->
+                                            </div><!-- /.timeline-items -->
+
+                                        </div>                                       
+                            
+                                        <!-- ######################### End Education Timeline ############################# -->
+
+                                        <!--  ######################### Experience Timeline ############################# -->                                        
+                                        
+                                        <div id="extimeline-js" class="timeline-container">
+                                                <!-- timeline heading -->
+                                            <div class="timeline-heading">
+                                                <div class="head">
+                                                    <span class="fa fa-lightbulb-o"><i></i></span>
+                                                </div>
+                                                <div class="head-content">
+                                                    <h3>Work Experience</h3>
+                                                </div>                                            
+                                            </div>                                            
+                                                <!-- End timeline heading -->
+
+                                            <button class="timeline-toggle">+ expand all</button>
+                                            <br class="clear">
+
+                                            <div class="timeline-items">
+                                                <div class="timeline-wrapper">
+                                                    <h2 class="milestone"><span>Revo Interactive</span></h2>
+                                                    <dl class="timeline-series">
+                                                        <dt id="junior" class="timeline-event"><a>Front End Developer</a></dt>
+                                                        <dd class="timeline-event-content" id="juniorEX">
+                                                            <h5 class="con-title">From Aug-2016 to Dec-2018</h5>
+                                                            <p>Best experience from this firm is, I work lots of outside client and face new problem, which 
+                                                                helps me shine my skill. A lot learn from here like- Version control (Git) , Sass & more work 
+                                                                experience with jQuery .</p>
+                                                            <br class="clear">
+                                                        </dd><!-- /.timeline-event-content -->
+                                                    </dl><!-- /.timeline-series -->
+                                                </div><!-- /.timeline-wrapper -->
+
+                                                <div class="timeline-wrapper">
+                                                    <h2 class="milestone"><span>BestSkillBd</span></h2>
+                                                    <dl class="timeline-series">
+                                                        <dt id="junior" class="timeline-event"><a>Junior/intern Web Developer</a></dt>
+                                                        <dd class="timeline-event-content" id="juniorEX">
+                                                            <h5 class="con-title">From 2016(june) to 2016(july)</h5>
+                                                            <p>As a Fresher, I begin my journey here. It’s sweet & sour memory. Find myself to cope with new 
+                                                                environment that I’m don’t know help me to improve knowledge how office work and how you 
+                                                                should cope with it.</p>
+                                                                <br class="clear">
+                                                            </dd>
+                                                        </dl>
+                                                    </div>
+
+                                                
+                                            </div><!-- /.timeline-items -->
+
+                                        </div>
+
+                                        <!-- ######################### End Experience Timeline ############################# -->
+                                        
+                                        <!-- download my cv -->                 
+                                        <!-- <div class="download">
+                                            <h3>Grab a Quick Copy of my vCard</h3>
+                                            <a  class="btn btn-success" href="download.php">Download</a> -->
+                                            <!-- <a download="file/Resume_Of_Pradipta_Sarker.pdf" class="btn btn-success" href="">Download</a> -->
+                                        <!-- </div> -->
+                                        <!-- download my cv end --> 
+
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+
+                        <section id="service" class="service section">
+                            <div class="boi">
+                                <div class="content-container">                                    
+                                    <div class="row">                                        
+                                        <h2 class="sec-title">service</h2>
+                                        <div class="sec-desc">
+                                            <p>Nothing can substitute for just plain hard work. 
+                                            I had to put in the time to get back. And it was a grind.
+                                            It meant training and sweating every day. But I was completely 
+                                            committed to working out to prove to myself that I still could do it.
+                                            <span class="q-author">Andre Agassi</span>
+                                            </p>
+                                            
+                                        </div>
+                                        <div class="service-list">
+                                            
+
+                                            <div class="col-lg-4">
+                                                <div class="ser-item">
+                                                    <i class="fa fa-github"></i>
+                                                    <h2>Frontend Dev</h2>
+                                                    <p>I ensure all my web code are web standards that works across all major 
+                                                        browsers and is S.E.O friendly.
+                                                    </p>
+                                                </div>
+                                            </div> 
+
+                                            <div class="col-lg-4">
+                                                <div class="ser-item">
+                                                    <i class="fa fa-linux"></i>
+                                                    <h2>Server Config</h2>
+                                                    <p>I am experienced with setting up, maintaining, and troubleshooting Linux servers.</p>
+                                                </div>
+                                            </div>    
+
+                                            <div class="col-lg-4">
+                                                <div class="ser-item">
+                                                    <i class="fa fa-firefox"></i>
+                                                    <h2>SEO</h2>
+                                                    <p>Researching and implementing content recommendations for organic SEO success.</p>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div><!--   End Row -->
+
+                                    <div class="row">
+                                        <h2 class="sec-title">skills</h2>
+                                        <div class="col-lg-12">
+                                            <!-- Place somewhere in the <body> of your page -->
+                                            <div class="flexslider">
+                                              <ul class="slides"
+                                              >
+                                                <li>
+                                                    <canvas id="Html5"></canvas>
+                                                </li>
+                                                <li>
+                                                    <canvas id="Css3"></canvas>
+                                                </li>
+                                                <li>
+                                                    <canvas id="Sass"></canvas>
+                                                </li>
+                                                <li>
+                                                    <canvas id="Bootstrap"></canvas>
+                                                </li>
+                                                <li>
+                                                    <canvas id="Git"></canvas>
+                                                </li>
+                                                <li>
+                                                    <canvas id="Photoshop"></canvas>
+                                                </li>
+                                                <li>
+                                                    <canvas id="Jquery"></canvas>
+                                                </li> 
+                                                <!-- items mirrored twice, total of 12 -->
+                                              </ul>
+                                            </div>
+                                        </div>
+                                    </div> <!--     End Row -->
+                                </div>
+                            </div>
+                        </section> <!--  End Service Section -->
+
+                        <section id="works" class="section works">
+                            <div class="boi">
+                                <div class="content-container">
+                                    <div class="row">
+                                        <h2 class="sec-title">works</h2>
+                                        <div class="sec-desc text-center">
+                                        	The Best work i dont so far ...
+                                            <!-- The Sky People have sent us a message... that they can take whatever they want.
+                                             That no one can stop them. Well, we will send them a message. 
+                                             You ride out as fast as the wind can carry you. You tell the other clans to come. 
+                                             Tell them Toruk Macto calls to them! You fly now, with me! My brothers! Sisters! 
+                                             And we will show the Sky People... 
+                                            that they cannot take whatever they want! And that this... this is our land!  -->
+                                        </div>
+                                        <div class="portfolio">
+                                            <div class="options">
+                                                <ul class="list-inline">
+                                                    <li class="filter" data-filter="all" >all</li>
+                                                    <li class="filter" data-filter=".design" >Webdesign</li>
+                                                    <li class="filter" data-filter=".land" >Landing Page</li>
+                                                    <li class="filter" data-filter=".webapp" >Web App</li>
+                                                    <li class="filter" data-filter=".ecom" >E-com</li>
+                                                </ul>
+                                            </div>
+                                            <div class="portfolio-items">
+
+                                                
+
+                                                <div class="mix sin-item land">
+                                                    <div class="ipic">
+                                                        <img class="img-responsive" src="img/work/helio-s10.jpg" alt="helio-s10">
+                                                        <div class="item-mask">
+                                                            <a class="mask-info" href="img/work/helio-s10.jpg" rel="prettyPhoto" title="hireitpeople Website Design"><i class="fa fa-magic" aria-hidden="true"></i></a>
+                                                            <a target="_blank" class="mask-link" href="http://helio-bd.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ides">
+                                                        <h4>helio-s10</h4>
+                                                        <p>Mobile Landing Page</p>
+                                                    </div>
+                                                </div> <!--   End Sin-item   -->
+
+                                                <div class="mix sin-item webapp">
+                                                    <div class="ipic">
+                                                        <img class="img-responsive" src="img/work/eboxtv.jpg" alt="eboxtv">
+                                                        <div class="item-mask">
+                                                            <a class="mask-info" href="img/work/eboxtv.jpg" rel="prettyPhoto" title="hireitpeople Website Design"><i class="fa fa-magic" aria-hidden="true"></i></a>
+                                                            <a target="_blank" class="mask-link" href="http://www.myebox.tv/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ides">
+                                                        <h4>Eboxtv</h4>
+                                                        <p>Eboxtv Frontend dev</p>
+                                                    </div>
+                                                </div> <!--   End Sin-item   -->
+
+                                                <div class="mix sin-item land">
+                                                    <div class="ipic">
+                                                        <img class="img-responsive" src="img/work/helio-s25.jpg" alt="helio-s25">
+                                                        <div class="item-mask">
+                                                            <a class="mask-info" href="img/work/helio-s25.jpg" rel="prettyPhoto" title="hireitpeople Website Design"><i class="fa fa-magic" aria-hidden="true"></i></a>
+                                                            <a target="_blank" class="mask-link" href="http://helio-bd.com/helio-s25/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ides">
+                                                        <h4>helio-s25</h4>
+                                                        <p>Mobile Landing Page</p>
+                                                    </div>
+                                                </div> <!--   End Sin-item   -->
+
+                                                <div class="mix sin-item design">
+                                                    <div class="ipic">
+                                                        <img class="img-responsive" src="img/work/hireitpeople.jpg" alt="hireitpeople">
+                                                        <div class="item-mask">
+                                                            <a class="mask-info" href="img/work/hireitpeople.jpg" rel="prettyPhoto" title="hireitpeople Website Design"><i class="fa fa-magic" aria-hidden="true"></i></a>
+                                                            <a target="_blank" class="mask-link" href="https://www.hireitpeople.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ides">
+                                                        <h4>hireitpeople Front-End</h4>
+                                                        <p>Theme customization</p>
+                                                    </div>
+                                                </div> <!--   End Sin-item   -->
+
+                                                <div class="mix sin-item design ecom ">
+                                                    <div class="ipic">
+                                                        <img class="img-responsive" src="img/work/avakaya.jpg" alt="">
+                                                        <div class="item-mask">
+                                                            <a class="mask-info" href="img/work/avakaya.jpg" rel="prettyPhoto" title="This is the description"><i class="fa fa-magic" aria-hidden="true"></i></a>
+                                                            <a target="_blank" class="mask-link" href="https://avakaya.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ides">
+                                                        <h4>avakaya</h4>
+                                                        <p>E-com Site front-end fixing</p>
+                                                    </div>
+                                                </div> <!--   End Sin-item   -->
+
+                                                <div class="mix sin-item land design">
+                                                    <div class="ipic">
+                                                        <img class="img-responsive" src="img/work/esi_ww.jpg" alt="">
+                                                        <div class="item-mask">
+                                                            <a class="mask-info" href="img/work/esi_ww.jpg" rel="prettyPhoto" title="This is the description"><i class="fa fa-magic" aria-hidden="true"></i></a>
+                                                            <a class="mask-link" href="http://revo-apps.com/demo/esi/Public/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ides">
+                                                        <h4>Esi Technologies</h4>
+                                                        <p>Single Page Front-end dev</p>
+                                                    </div>
+                                                </div> <!--   End Sin-item   -->
+
+
+
+                                                <div class="mix sin-item design land">
+                                                    <div class="ipic">
+                                                        <img class="img-responsive" src="img/work/ak_khan_water.jpg" alt="Resort sample">
+                                                        <div class="item-mask">
+                                                            <a class="mask-info" href="img/work/ak_khan_water.jpg" rel="prettyPhoto" title="hireitpeople Website Design"><i class="fa fa-magic" aria-hidden="true"></i></a>
+                                                            <a target="_blank" class="mask-link" href="http://akw.axiomshuvo.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ides">
+                                                        <h4>Ak Khan Water Health</h4>
+                                                        <p>SIngle Page Portfolio</p>
+                                                    </div>
+                                                </div> <!--   End Sin-item   -->
+
+                                                <div class="mix sin-item land">
+                                                    <div class="ipic">
+                                                        <img class="img-responsive" src="img/work/resort_sample.jpg" alt="Resort sample">
+                                                        <div class="item-mask">
+                                                            <a class="mask-info" href="img/work/resort_sample.jpg" rel="prettyPhoto" title="hireitpeople Website Design"><i class="fa fa-magic" aria-hidden="true"></i></a>
+                                                            <a target="_blank" class="mask-link" href="http://resort.axiomshuvo.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ides">
+                                                        <h4>Resort</h4>
+                                                        <p>Sample Landing Page</p>
+                                                    </div>
+                                                </div> <!--   End Sin-item   -->
+
+                                                <div class="mix sin-item  design">
+                                                    <div class="ipic">
+                                                        <img class="img-responsive" src="img/work/h1bLottery.jpeg" alt="h1bLottery">
+                                                        <div class="item-mask">
+                                                            <a class="mask-info" href="img/work/h1bLottery.jpeg" rel="prettyPhoto" title="This is the description"><i class="fa fa-magic" aria-hidden="true"></i></a>
+                                                            <a target="_blank" class="mask-link" href="http://h1blottery.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ides">
+                                                        <h4>h1bLottery</h4>
+                                                        <p>Single Page application website</p>
+                                                    </div>
+                                                </div> <!--   End Sin-item   -->
+
+                                                <div class="mix sin-item  design">
+                                                    <div class="ipic">
+                                                        <img class="img-responsive" src="img/work/newslife.jpg" alt="newslife">
+                                                        <div class="item-mask">
+                                                            <a class="mask-info" href="img/work/newslife.jpg" rel="prettyPhoto" title="This is the description"><i class="fa fa-magic" aria-hidden="true"></i></a>
+                                                            <a target="_blank" class="mask-link" href="http://newslife.axiomshuvo.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ides">
+                                                        <h4>newslife</h4>
+                                                        <p>NewsPaper Sample theme</p>
+                                                    </div>
+                                                </div> <!--   End Sin-item   -->
+
+                                                <div class="mix sin-item  design">
+                                                    <div class="ipic">
+                                                        <img class="img-responsive" src="img/work/daily_shokalerkhobor.jpg" alt="daily shokalerkhobor">
+                                                        <div class="item-mask">
+                                                            <a class="mask-info" href="img/work/daily_shokalerkhobor.jpg" rel="prettyPhoto" title="daily shokalerkhobor" ><i class="fa fa-magic" aria-hidden="true"></i></a>
+                                                            <a target="_blank" class="mask-link" href="http://www.shokalerkhobor24.com"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ides">
+                                                       <h4>shokalerkhobor24</h4>
+                                                        <p>Website Frontend Devloment.</p>
+                                                    </div>
+                                                </div> <!--   End Sin-item   -->
+
+                                                <div class="mix sin-item webapp website" >
+                                                    <div class="ipic">
+                                                        <img class="img-responsive" src="img/work/desirecruiter.jpg" alt="desirecruiter">
+                                                        <div class="item-mask">
+                                                            <a class="mask-info" href="img/work/desirecruiter.jpg" rel="prettyPhoto" title="desirecruiter"><i class="fa fa-magic" aria-hidden="true"></i></a>
+                                                            <a target="_blank" class="mask-link" href="http://www.desirecruiter.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ides">
+                                                        <h4>desirecruiter</h4>
+                                                        <p>Website Frontend Devloment</p>
+                                                    </div>
+                                                </div> <!--   End Sin-item   -->
+
+                                               
+
+                                            </div>
+                                        </div>
+                                    </div> <!--  End Row   -->
+                                </div><!--   End Content-container  -->
+                            </div><!--    End boi  -->
+                        </section> <!--  End Work Section    -->
+
+                        <section id="contact" class="contact">
+                            <div class="boi">
+                                <div class="content-container">
+                                    <div class="row">
+                                        <h2 class="sec-title">contact</h2>
+                                        <div class="sec-desc con-des">
+                                            Do you speak <span>Na'vi</span> ? It's ok if you don't, I speak English too. Don't hesitate to contact Me.
+                                        </div>                                        
+                                    </div><!--  End row  -->
+                                   <!--  <div class="gmap" id="gmap"></div> --> 
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <h4 class="sec-title">
+                                                Hire Me !
+                                            </h4>
+                                            <!-- <ul class="hire">
+                                                <li><i class=" animated infinite bounce fa fa-angle-double-down"></i></li>
+                                                <li><a href=""><img src="img/icon/upwork-icon.png" alt="">UpWork</a></li>
+                                                <li><a href=""><img src="img/icon/pph-icon.png" alt="">PPH</a></li>
+                                            </ul> -->
+                                        </div>
+                                         <div class="col-lg-6">                                            
+                                            <form action="" method="GET">
+                                                <div class="form-group">
+                                                    <!-- <label for="name">Name</label> -->
+                                                    <input type="text" class="form-control" name="name" placeholder="Name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <!-- <label for="email">Email</label> -->
+                                                    <input type="email" class="form-control" name="email" placeholder="Email">
+                                                </div>
+                                                <div class="form-group">                                                    
+                                                   <textarea name="message" class="form-control" rows="3" placeholder="Write Your Message." ></textarea>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Send Message</button>                                                
+                                            </form>
+                                         </div> 
+                                    </div>
+                                </div><!--  ENd content-container    -->
+                            </div><!--   ENd BOI -->
+                        </section><!--   End Contact Section    -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="scroll-to-top" href="#" title="Scroll To Top"><i class="fa fa-angle-double-up"></i></a>
+
+
+
+        
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="lib/Timeliner/js/timeliner.min.js"></script>
+        <script src="lib/scrollto/jquery.scrollTo.min.js"></script>
+        <script src="lib/smooth-scroll/jquery.smooth-scroll.min.js"></script>
+        <script src="lib/water-bubble/waterbubble.js"></script>
+        <script src="lib/flexslider/jquery.flexslider.js"></script>
+        <script src="lib/mixitup/src/jquery.mixitup.js"></script>
+        <script src="lib/prettyPhoto/js/prettyPhoto.js"></script>  
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
